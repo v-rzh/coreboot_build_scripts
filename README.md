@@ -9,7 +9,7 @@ For now the scripts only support x220 and x230 Thinkpads.
 
 `convert_embed_splash.sh` will install a bootsplash into your ROM. Read the script comments before you proceed! Imagemagick is required for this script.
 
-`test_flash.sh` is just a convenience script which extracts the factory ROM twice and checks their hashes to ensure they're identical. It doesn't hurt to do it more than once. The script also has some examples of  chip versions. Make sure to actually check the version of the chip you are flashing - same models might have different chips!
+`test_flash.sh` is just a convenience script which extracts the factory ROM twice and ensures they're identical. It doesn't hurt to do it more than once. The script also has some examples of  chip versions. Make sure to actually check the version of the chip you are flashing - same models might have different chips!
 
 I use the CH341A programmer, but there are many googlable alternatives.
 
